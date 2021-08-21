@@ -119,3 +119,46 @@ select {
   background-color: #f07987;
   border: none;
 }
+
+/* card container */
+.card-container {
+  position: absolute;
+  left: 143px;
+  top: 470px;
+  width: 1199px;
+  border: 1px solid red;
+}
+
+.card-flex-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex: 0 0 40%;
+  padding: 6px;
+  border-radius: 16px;
+  justify-content: space-between;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.content-container button {
+  align-self: flex-end;
+}
+
+.block-container {
+  width: 150px;
+  height: 150px;
+  background: #c4c4c4;
+  border-radius: 16px;
+  flex: 0 0 30%;
+}
