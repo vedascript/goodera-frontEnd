@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.hero-section {
+  position: relative;
+  background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
+  height: 364px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 1143px;
+  height: 27px;
+  left: 143px;
+  top: 37px;
+  color: #fff;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: Poppins;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.company-name {
+  display: flex;
+}
+
+.first-div {
+  display: flex;
+}
+
+.first-div nav {
+  margin-left: 10px;
+}
+
+.job-hunt {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
