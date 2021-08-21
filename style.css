@@ -86,7 +86,7 @@ header ul li {
 .search-container {
   position: absolute;
   width: 1154px;
-  /* height: 100px; */
+  height: 60px;
   left: 143px;
   top: 314px;
   background-color: #fff;
@@ -96,4 +96,26 @@ header ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.search-container select {
+  color: grey;
+}
+
+.search-container input,
+select {
+  border: none;
+  outline: none;
+}
+
+.search-container button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #fff;
+
+  padding: 3px 25px;
+  background-color: #f07987;
+  border: none;
 }
