@@ -13,6 +13,7 @@ body {
   position: relative;
   background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
   height: 364px;
+  color: #fff;
 }
 
 header {
@@ -24,13 +25,12 @@ header {
   height: 27px;
   left: 143px;
   top: 37px;
-  color: #fff;
 }
 
 header ul li {
   display: inline-block;
   margin-left: 10px;
-  font-family: Poppins;
+
   font-style: normal;
 
   font-size: 14px;
@@ -50,9 +50,32 @@ header ul li {
 }
 
 .job-hunt {
-  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
+}
+
+/* heading section */
+
+.heading {
+  position: absolute;
+  width: 670px;
+  height: 72px;
+  left: 143px;
+  top: 142px;
+}
+
+.heading h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.heading p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
