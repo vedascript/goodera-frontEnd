@@ -157,12 +157,15 @@ select {
   left: 143px;
   top: 470px;
   width: 1199px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-flex-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .card {
