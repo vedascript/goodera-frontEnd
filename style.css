@@ -7,6 +7,7 @@
 
 body {
   font-family: Poppins;
+  background-color: #e5e5e5;
 }
 
 .hero-section {
@@ -78,4 +79,21 @@ header ul li {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+/* search container */
+
+.search-container {
+  position: absolute;
+  width: 1154px;
+  /* height: 100px; */
+  left: 143px;
+  top: 314px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
