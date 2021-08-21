@@ -57,6 +57,15 @@ header ul li {
   line-height: 27px;
 }
 
+.job-logo {
+  margin-right: 7px;
+}
+
+.job-logo img {
+  width: 18px;
+  height: 18px;
+}
+
 /* heading section */
 
 .heading {
@@ -118,6 +127,28 @@ select {
   padding: 3px 25px;
   background-color: #f07987;
   border: none;
+}
+
+.job-search-cont {
+  display: flex;
+  align-items: center;
+}
+
+.job-search-cont img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.location-cont {
+  display: flex;
+  align-items: center;
+}
+
+.location-cont img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
 
 /* card container */
